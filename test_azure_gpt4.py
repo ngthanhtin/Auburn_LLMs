@@ -18,7 +18,7 @@ azure_endpoint = config_yaml['azure_endpoint']
 
 client = AzureOpenAI(
     azure_endpoint = azure_endpoint,
-    api_key=api_key,  
+    api_key=api_key,
       api_version="2024-02-15-preview"    
     )
     
